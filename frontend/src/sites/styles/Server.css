@@ -1,0 +1,70 @@
+.aqua-container-list {
+  background-color: #000B0B;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 98vh;
+  position: fixed;
+  left: 0;
+  transition: .3s;
+}
+.logo-list-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logo-list {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: 0.3s;
+  background-color: #000B0B;
+  margin: 5px 0;
+}
+
+.logo-list:hover {
+  border-radius: 30%;
+  background-color: #000B0B;
+  transition: 0.3s;
+}
+
+.hover-line {
+  position: absolute;
+  left: -10px;
+  width: 4px;
+  height: 15px;
+  border-radius: 20%;
+  background-color: white;
+  opacity: 0;
+  transition: opacity 0.3s, height 0.3s;
+}
+
+.logo-list-container:hover .hover-line {
+  opacity: 1;
+}
+
+.logo-list-container.active .hover-line {
+  opacity: 1;
+  height: 30px; 
+  width: 6px;  
+  background-color: white;
+}
+
+.listServer
+{
+  width: 75px;
+}
+
+.listChannel
+{
+  width: 200px;
+}
+
+.listMessage
+{
+  color: rgba(255, 255, 255, 0.705);
+}

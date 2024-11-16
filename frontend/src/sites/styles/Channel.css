@@ -1,0 +1,30 @@
+
+.channel-list
+{
+    
+  background-color: #011717;
+  height: 98vh;
+  width: 180px;
+}
+
+
+.channel-list-container {
+    color: #a09f9f;
+    margin: 4px;
+    border-radius: 10%;
+    padding: 4px;
+    cursor: pointer;
+    text-align: left;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.channel-list-container:hover {
+    color: rgb(255, 255, 255);
+    background-color: #017d86; 
+}
+
+.channel-list-container.active {
+    color: white; 
+    background-color: #05afbb; 
+    font-weight: bold;
+}

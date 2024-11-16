@@ -1,0 +1,39 @@
+.aqua-text {
+    color: aqua;
+    text-shadow: 0 0 30px aqua, 0 0 20px aqua, 0 0 30px aqua;
+    transition: text-shadow 0.3s ease-in-out;
+  }
+  
+  .aqua-input {
+    color: aqua;
+    background-color: transparent;
+    border: 2px solid aqua;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px aqua, 0 0 20px aqua;
+    transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+  
+  .aqua-input:focus {
+    outline: none;
+    box-shadow: 0 0 15px aqua, 0 0 25px aqua;
+    border-color: lightblue;
+  }
+  
+  .aqua-link {
+    color: aqua;
+    text-decoration: none;
+    text-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua;
+    border: 2px solid aqua;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px aqua, 0 0 20px aqua;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .aqua-link:hover {
+    box-shadow: 0 0 30px aqua, 0 0 50px aqua;
+  }
+  

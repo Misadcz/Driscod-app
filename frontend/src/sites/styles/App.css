@@ -1,0 +1,23 @@
+.aqua-text {
+  color: aqua;
+  text-shadow: 0 0 30px aqua, 0 0 20px aqua, 0 0 30px aqua;
+}
+
+.aqua-link {
+  color: aqua;
+  text-decoration: none;
+  text-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua;
+  border: 2px solid aqua;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px aqua, 0 0 20px aqua;
+}
+
+.aqua-container {
+  background-color: #011717;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
